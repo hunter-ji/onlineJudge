@@ -1,0 +1,23 @@
+.DS_Store
+online_judge_front/node_modules
+online_judge_front/dist
+
+
+# local env files
+online_judge_front/.env.local
+online_judge_front/.env.*.local
+
+# Log files
+online_judge_front/npm-debug.log*
+online_judge_front/yarn-debug.log*
+online_judge_front/yarn-error.log*
+online_judge_front/pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+online_judge_front/*.suo
+online_judge_front/*.ntvs*
+online_judge_front/*.njsproj
+online_judge_front/*.sln
+online_judge_front/*.sw?
