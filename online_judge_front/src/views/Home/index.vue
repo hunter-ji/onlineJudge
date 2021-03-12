@@ -12,7 +12,7 @@
       <el-table-column prop="title" label="标题" />
       <el-table-column prop="status" label="状态" sortable>
         <template slot-scope="scope">
-          <el-tag :type="scope.row.status ? 'success' : 'info'">
+          <el-tag :type="scope.row.status ? 'info' : 'success'">
             {{ scope.row.status ? "未发布" : "已发布" }}
           </el-tag>
         </template>
